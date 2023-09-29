@@ -1,0 +1,45 @@
+.main{
+    width: 100%;
+    padding-top: 26px;
+
+ 
+
+   
+    &__bigblock{
+        display: flex;
+    }
+
+    &__h1{
+        padding-top: 154px;
+        
+font-family: 'Recoleta';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 65px;
+/* or 136% */
+
+
+color: #FBFAF7;
+
+    }
+
+    &__p{
+        padding-top: 18px;
+        
+        font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+
+
+color: #FBFAF7;
+
+    }
+
+  &__img{
+    padding-left: 24px;
+  }
+}

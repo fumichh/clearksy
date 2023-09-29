@@ -1,0 +1,42 @@
+.grand{
+
+    &__bigblock{
+        padding: 0 130px ;
+       padding-top: 180px;
+        display: flex;
+    }
+
+    &__text h1{
+        padding-top: 93px;
+        font-family: 'Recoleta';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 54px;
+/* or 112% */
+
+
+color: #163A24;
+
+    }
+
+    &__text p{
+        padding-top: 27px;
+        font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+
+
+color: #163A24;
+
+        
+    }
+
+    &__img{
+        padding-left: 115px;
+    }
+
+}

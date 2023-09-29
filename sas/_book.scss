@@ -1,0 +1,59 @@
+.book{
+
+    &__bigblock{
+        padding: 119px 0 0 98px;
+        display: flex;
+    }
+
+    &__h1{
+        padding-top: 139px;
+        font-family: 'Recoleta';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 54px;
+        /* or 112% */
+        
+        
+        color: #163A24;
+        
+    }
+
+    &__p{
+        padding-top: 25px;
+        font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height, or 150% */
+
+
+color: #163A24;
+    }
+
+
+    &__button{
+        cursor: pointer;
+        margin-top: 19px;
+        border: none;
+        padding: 15px 25px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        /* identical to box height */
+        
+        
+        color: #FBFAF7;
+
+        background: #198C36;
+border-radius: 160px;
+    }
+
+    &__img{
+        padding-left: 195px;
+        margin-bottom: 135px;
+    }
+}

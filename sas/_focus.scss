@@ -1,0 +1,39 @@
+.focus{
+
+    background: #F2EFE6;
+
+    &__h1{
+        padding-top: 114px;
+        font-family: 'Recoleta';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 54px;
+/* or 112% */
+
+text-align: center;
+
+color: #163A24;
+
+    }
+
+    &__p{
+padding-top: 27px;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        /* or 150% */
+        
+        text-align: center;
+        
+        color: #163A24;
+        
+        
+    }
+
+    &__img{
+        padding-bottom: 135px;
+    }
+}

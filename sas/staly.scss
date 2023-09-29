@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import "_navbar.scss";
+@import "_main.scss";
+@import "_body.scss";
+@import "_hr.scss";
+@import "_focus.scss";
+@import"_grand.scss";
+@import "_interest.scss";
+@import"_price.scss";
+@import"_book.scss";
+@import"start.scss";
+@import"_stay.scss";
+@import"_end.scss";
+
+$darkgreen: #163A24;
+
+a{
+    text-decoration: none;
+}
+
+ul,
+li{
+    list-style: none;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 20px 0;
+    max-width: 1240px;
+}
+
+
+.header{
+    width: 100%;
+    background-color: $darkgreen;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.end{
+
+    &__block1{
+        display: flex;
+            justify-content: space-between;
+            padding-top: 44px;
+    }
+
+    &__p1{
+        
+font-family: 'Recoleta';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+color: #163A24;
+
+    }
+
+    &__icons img{
+padding-left: 10px;
+    }
+
+    &__block2{
+        display: flex;
+        margin-top: 70px;
+    }
+
+    &__navbar &__ul{
+        display: flex;
+        margin-left: 340px;
+       
+    }
+
+    &__ul li,a{
+
+        padding-left: 14px;
+        font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: right;
+
+color: #198C36;
+
+    }
+}
